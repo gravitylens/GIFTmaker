@@ -1,0 +1,55 @@
+RefNum,Question,OptA,OptB,OptC,OptD,Key,Category
+1,Which is an example of a valid IP address in a Private Network?,10.0.0.0,172.16.255.255,192.168.100.36,192.168.0.0,C,TCP/IP
+2,What is the purpose of an IP address?,Computers use IP addresses to locate one another so they can communicate.,See what users are on a network,Deliver letters,Define network access policy,A,TCP/IP
+3,What does a subnet mask do for a network?,Adds color to a network,"A subnet mask is used to divide an IP address into two parts. One part identifies the host (computer), the other part identifies the network to which it belongs.",Defines if IP version 4 or IP version 6 is used,Explains which octets are important for administrators to use,B,TCP/IP
+4,What is the default subnet mask for a class C network?,255.0.0.0,255.252.0.0,255.255.0.0,255.255.255.0,D,TCP/IP
+5,What does a default gateway do?,A default gateway is the node in a computer network that serves as the forwarding host to other networks,Routes traffic within the internal network only,Sells consumer grade laptops,Sorts which traffic should go to which applications,A,TCP/IP
+6,Which of these is a natively connectionless protocol?,ISO,TCP,UDP,FTP,C,TCP/IP
+7,What is a VLAN?,Any broadcast domain that is partitioned and isolated in a computer network at the data link layer,Any broadcast domain that is partitioned and isolated in a computer network at the application layer,Segment machines by their function,Segment machines by their hardware,A,TCP/IP
+8,What does DNS stand for?,Do Not Snake,Dot Net Subsystem,Domain Name Series,Domain Name System,D,Name Resolution
+9,What does DNS do?,Maintains a directory of domain names and translate them to Internet Protocol (IP) addresses,Translates TCP based connections into UDP connections,Translates domain names into IP Addresses,Maintains a directory of cheese types and translates them to Internet Protocol (IP) addresses,C,Name Resolution
+10,What is WINS?,A service that identifies the user a packet was sent by,Translates NETBIOS names to IP addresses,A service that enables Windows to identifyÿthe next sports competition winner,A service that validates the three way handshake was completed for TCP connections,B,Name Resolution
+11,What is a fully qualified domain name (fqdn)?,The complete domain nameÿfor a set of computers,A  Fully Qualified Domain Name (or FQDN) is a complete and unambiguous domain name that specifies an exact location for an object in a Domain Name System (DNS) hierarchy,The name of the domain,The name of the forest,B,Name Resolution
+12,What is a NetBios name?,A name to upgrade the bios remotely,Another name for the host name,A friendly name used to identify Windows computers on a wide area network,A friendly name used to identify computers on a local area network using an outdated resolution system,C,Name Resolution
+13,Which protocol is used to resolve a FQDN?,WINS,TCP,DNS,UDP,C,Name Resolution
+14,Which process is used to resolve a NetBios Name?,"Check the local cache,check an LMHosts file then broadcast a message that looks for the nameÿ",Check with DNS,Check with DHCP,Contact your administrator,A,Name Resolution
+15,What is a simple utility to determine if network connectivity exists between two devices?,Wireshark,Lacehawk,Ping,Ipconfig,C,Protocols
+16,What common network utility can be used to display all the nodes a packet traverses between its origin and destination?,trc,tracehome,tracertÿ,tracerm,C,Protocols
+17,What is the purpose of WireShark?,To clean out local bodies of water,To test ethernet cables,To capture and observe packets coming in or out of a system,To observe the hardware performance of a system,C,Protocols
+18,Is FTP considered a secure protocol?,Yes,No,,,B,Protocols
+19,HTTP is more secure than HTTPS,True,False,,,B,Protocols
+20,What kind of information is typically collected by a SIEM,Troubleshooting Logs,Security Logs,Disk Utilization,Memory Utilization,B,Protocols
+21,SSH is more secure than Telnet,True,False,,,A,Protocols
+22,What is an example of an authentication factor?,star alignments,a one time token,a hostname,a MAC address,B,Authentication
+23,What is the benefit of multi-factor authentication?,lower hardware usage,lower maintenance costs,addtional layers between an attacker and more sensitive information,happier users,C,Authentication
+24,Which answer would be considered multi-factor authentication?,logging in with a password,logging in with a certificate,logging in with a password plus a pin,logging in with a pin,C,Authentication
+25,"Which utility is used to configure, add and/or modify disk volumes on a Windows Server?",Disk Utility,Disk Management,Disk Commander,Disk Launcher,B,Authentication
+26,What are windows services?,A set of programs that operate in the background,A set of programs that operate only on command,A set of program that control licensing,A set of programs that open a game,A,Windows Servers
+27,What utility would you use to restart a service?,rundmc,secpol.msc,chkdsk,services.msc,D,Windows Servers
+28,Why run Windows Services under a non-privileged user account?,To avoid higher resource consumption,To make exploiting services less appealing to attackers,To avoid excessive log generation,To make troubleshooting easier,B,Windows Servers
+29,Why are Windows patches important?,To use more disk space,To keep hardware drivers up to date,To keep the system as attack resistant as possible,To comply with audit standards,C,Windows Servers
+30,What service can automate applying patches?,SCCP,SCP,SCCM,RDP,C,Windows Servers
+31,What generates a certificate?,Certifying House,Certifying Company,Certificate Authority,Certificate Magistrate,C,Windows Servers
+32,What must be done for a Windows system to trust a certificate?,Nothing,A certificate must be placed on the filesystem,A certificate must be imported into a trusted root or intermidiate certificate store,A certificate must be imported into IIS,C,Windows Servers
+33,Why bind a certificate to a website?,To appease the compliance board,There is no reason to bind a certificate to a website,To allow encrypted traffic to a website,To use the certificate authority,C,Windows Servers
+34,Which command will restart an application pool named NewApp?,appcmd recycle apppool NewApp,appcmd recycle apppool /apppool.name:NewApp,IISreset /Pool NewApp,reset NewApp,B,Windows Servers
+35,Which command will restart IIS?,IIS /restart,RestartIIS,service IIS restart,IISreset,D,Windows Servers
+36,What applet is used to configure web sites on an IIS server?  ,inet.msc,IIS.msc,inetmgr,IISmgr,C,Windows Servers
+37,What are group policy objects?,A collection of settings thatÿdefineÿwhat a system will look like and how it will behaveÿ,A group to separate user roles,A policy to control local resources only,A policy to manage domain controllers,A,Windows Servers
+38,Where are group policy objects defined?,On the local machine,On the internet,On the domain,In the cloud,C,Windows Servers
+39,What applet is used to view the local security policy on a machine?,secbsk.msc,secpol.msc,locpol.msc,polmgr.msc,B,Windows Servers
+40,"If a user changes their own password, what is this called?",End of quarter,a password change,a password reset,a password reconfiguration,B,Windows Servers
+41,"If a user changes a password of another user, what is this called?",End of quarter,a password change,a password reset,a password reconfiguration,C,Windows Servers
+42,Which Windows shell command will list the contents of a directory?,dir,cd,grep,list,A,Windows Servers
+43,Which Windows shell command will list the contents of a file?,show,type,cat,grep,B,Windows Servers
+44,Which Windows shell command will display all current TCP/IP network configuration values?,ifconfig,netconfig,intconfig,ipconfig,D,Windows Servers
+45,Which command set would navigate from D:\Users to C:\Program Files (x86)?,cz C:\Program Files (x86),cl C:\Program Files (x86),dir C:\Program Files (x86),cd C:\Program Files (x86),D,Windows Servers
+46,"At a Linux command line, what is the command to establish an SSH terminal session with another Linux computer?",ssh user@machine,ssd user@machine,newconn user@machine,user@machine,A,UNIX Servers
+47,Are Unix/Linux machines centrally managed like Windows Desktops in Active Directory by default?,Yes,No,Sometimes,Why would they?,B,UNIX Servers
+48,Which user is typically not allowed to connect via SSH?,Jeff,wheel,root,sshd,C,UNIX Servers
+49,Which UNIX shell command will list the contents of a directory?,grep,find,tail,ls,D,UNIX Servers
+50,Which UNIX shell command will list the contents of a file?,cat,mouse,du,rm -rf /,A,UNIX Servers
+51,Which UNIX shell command will display all current TCP/IP network configuration values?,ipconfig,netcfg,eth0 cfg,ifconfig,D,UNIX Servers
+52,Which command would navigate from /var/opt to /usr/bin?,cm /usr/bin,cd /usr/bin,change /usr/bin,chmod 755 /usr/bin,B,UNIX Servers
+53,"When editing a file in VI, which series of keystrokes will allow you to close the file without saving?",esc : wq!,esc : wq,esc : q!,esc : ns,C,UNIX Servers
+54,"When editing a file in VI, which series of keystrokes will allow you to close and save the file?",esc : wq,esc : q!,esc : ns,esc : s,A,UNIX Servers
