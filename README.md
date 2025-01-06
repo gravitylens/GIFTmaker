@@ -1,7 +1,7 @@
 # GIFTmaker
 
 ## Overview
-GIFTmaker is a PowerShell script that converts a CSV file containing multiple-choice questions into a specific format for use in other applications.
+GIFTmaker is a PowerShell script that converts a CSV file containing multiple-choice questions into athe GIFT format used by several LMS systems.
 
 ## Input File Format
 The input CSV file should have the following columns:

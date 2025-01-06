@@ -1,4 +1,4 @@
-RefNum,Question,OptA,OptB,OptC,OptD,Key,Category
+ID,Stem,OptA,OptB,OptC,OptD,Key,Category
 1,Which is an example of a valid IP address in a Private Network?,10.0.0.0,172.16.255.255,192.168.100.36,192.168.0.0,C,TCP/IP
 2,What is the purpose of an IP address?,Computers use IP addresses to locate one another so they can communicate.,See what users are on a network,Deliver letters,Define network access policy,A,TCP/IP
 3,What does a subnet mask do for a network?,Adds color to a network,"A subnet mask is used to divide an IP address into two parts. One part identifies the host (computer), the other part identifies the network to which it belongs.",Defines if IP version 4 or IP version 6 is used,Explains which octets are important for administrators to use,B,TCP/IP
@@ -8,13 +8,13 @@ RefNum,Question,OptA,OptB,OptC,OptD,Key,Category
 7,What is a VLAN?,Any broadcast domain that is partitioned and isolated in a computer network at the data link layer,Any broadcast domain that is partitioned and isolated in a computer network at the application layer,Segment machines by their function,Segment machines by their hardware,A,TCP/IP
 8,What does DNS stand for?,Do Not Snake,Dot Net Subsystem,Domain Name Series,Domain Name System,D,Name Resolution
 9,What does DNS do?,Maintains a directory of domain names and translate them to Internet Protocol (IP) addresses,Translates TCP based connections into UDP connections,Translates domain names into IP Addresses,Maintains a directory of cheese types and translates them to Internet Protocol (IP) addresses,C,Name Resolution
-10,What is WINS?,A service that identifies the user a packet was sent by,Translates NETBIOS names to IP addresses,A service that enables Windows to identifyÿthe next sports competition winner,A service that validates the three way handshake was completed for TCP connections,B,Name Resolution
-11,What is a fully qualified domain name (fqdn)?,The complete domain nameÿfor a set of computers,A  Fully Qualified Domain Name (or FQDN) is a complete and unambiguous domain name that specifies an exact location for an object in a Domain Name System (DNS) hierarchy,The name of the domain,The name of the forest,B,Name Resolution
+10,What is WINS?,A service that identifies the user a packet was sent by,Translates NETBIOS names to IP addresses,A service that enables Windows to identifyÃ¿the next sports competition winner,A service that validates the three way handshake was completed for TCP connections,B,Name Resolution
+11,What is a fully qualified domain name (fqdn)?,The complete domain nameÃ¿for a set of computers,A  Fully Qualified Domain Name (or FQDN) is a complete and unambiguous domain name that specifies an exact location for an object in a Domain Name System (DNS) hierarchy,The name of the domain,The name of the forest,B,Name Resolution
 12,What is a NetBios name?,A name to upgrade the bios remotely,Another name for the host name,A friendly name used to identify Windows computers on a wide area network,A friendly name used to identify computers on a local area network using an outdated resolution system,C,Name Resolution
 13,Which protocol is used to resolve a FQDN?,WINS,TCP,DNS,UDP,C,Name Resolution
-14,Which process is used to resolve a NetBios Name?,"Check the local cache,check an LMHosts file then broadcast a message that looks for the nameÿ",Check with DNS,Check with DHCP,Contact your administrator,A,Name Resolution
+14,Which process is used to resolve a NetBios Name?,"Check the local cache,check an LMHosts file then broadcast a message that looks for the nameÃ¿",Check with DNS,Check with DHCP,Contact your administrator,A,Name Resolution
 15,What is a simple utility to determine if network connectivity exists between two devices?,Wireshark,Lacehawk,Ping,Ipconfig,C,Protocols
-16,What common network utility can be used to display all the nodes a packet traverses between its origin and destination?,trc,tracehome,tracertÿ,tracerm,C,Protocols
+16,What common network utility can be used to display all the nodes a packet traverses between its origin and destination?,trc,tracehome,tracertÃ¿,tracerm,C,Protocols
 17,What is the purpose of WireShark?,To clean out local bodies of water,To test ethernet cables,To capture and observe packets coming in or out of a system,To observe the hardware performance of a system,C,Protocols
 18,Is FTP considered a secure protocol?,Yes,No,,,B,Protocols
 19,HTTP is more secure than HTTPS,True,False,,,B,Protocols
@@ -35,7 +35,7 @@ RefNum,Question,OptA,OptB,OptC,OptD,Key,Category
 34,Which command will restart an application pool named NewApp?,appcmd recycle apppool NewApp,appcmd recycle apppool /apppool.name:NewApp,IISreset /Pool NewApp,reset NewApp,B,Windows Servers
 35,Which command will restart IIS?,IIS /restart,RestartIIS,service IIS restart,IISreset,D,Windows Servers
 36,What applet is used to configure web sites on an IIS server?  ,inet.msc,IIS.msc,inetmgr,IISmgr,C,Windows Servers
-37,What are group policy objects?,A collection of settings thatÿdefineÿwhat a system will look like and how it will behaveÿ,A group to separate user roles,A policy to control local resources only,A policy to manage domain controllers,A,Windows Servers
+37,What are group policy objects?,A collection of settings thatÃ¿defineÃ¿what a system will look like and how it will behaveÃ¿,A group to separate user roles,A policy to control local resources only,A policy to manage domain controllers,A,Windows Servers
 38,Where are group policy objects defined?,On the local machine,On the internet,On the domain,In the cloud,C,Windows Servers
 39,What applet is used to view the local security policy on a machine?,secbsk.msc,secpol.msc,locpol.msc,polmgr.msc,B,Windows Servers
 40,"If a user changes their own password, what is this called?",End of quarter,a password change,a password reset,a password reconfiguration,B,Windows Servers
