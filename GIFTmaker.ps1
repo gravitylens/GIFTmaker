@@ -1,9 +1,9 @@
 <#
 .SYNOPSIS
-    Converts a CSV file containing multiple-choice questions into a specific format for use in other applications.
+    Converts a CSV file containing multiple-choice questions into GIFT format for use in other applications.
 
 .DESCRIPTION
-    This script reads a CSV file with multiple-choice questions and converts it into a specific format.
+    This script reads a CSV file with multiple-choice questions and converts it into GIFT format.
     The CSV file should have the following columns: Name, Answer, Option A to Option G, and Question.
 
 .PARAMETER csvFilePath

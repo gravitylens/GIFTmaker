@@ -18,7 +18,6 @@ Name,Answer,Option A,Option B,Option C,Option D,Option E,Option F,Option G,Quest
 2,B,3,4,5,6,,,,What is 2 + 2?
 3,C,Red,Blue,Green,Yellow,,,,What color do you get when you mix blue and yellow?
 4,D,Earth,Mars,Jupiter,Saturn,,,,Which planet is known as the Red Planet?
-5,E,Water,Fire,Earth,Air,,,,Which element is associated with the zodiac sign Aquarius?
 ```
 
 ## Usage
