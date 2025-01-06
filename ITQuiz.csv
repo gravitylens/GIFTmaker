@@ -1,4 +1,4 @@
-ID,Stem,OptA,OptB,OptC,OptD,Key,Category
+Name,Question,Option A,Option B,Option C,Option D,Answer,Category
 1,Which is an example of a valid IP address in a Private Network?,10.0.0.0,172.16.255.255,192.168.100.36,192.168.0.0,C,TCP/IP
 2,What is the purpose of an IP address?,Computers use IP addresses to locate one another so they can communicate.,See what users are on a network,Deliver letters,Define network access policy,A,TCP/IP
 3,What does a subnet mask do for a network?,Adds color to a network,"A subnet mask is used to divide an IP address into two parts. One part identifies the host (computer), the other part identifies the network to which it belongs.",Defines if IP version 4 or IP version 6 is used,Explains which octets are important for administrators to use,B,TCP/IP
