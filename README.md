@@ -30,7 +30,7 @@ To run the script, use the following command in PowerShell:
 
 ### Example
 ```powershell
-.\GIFTmaker.ps1 -csvFilePath "C:\path\to\epmitems.csv"
+.\GIFTmaker.ps1 -csvFilePath "C:\path\to\items.csv"
 ```
 
 This will process the CSV file and output the formatted questions to the console.
@@ -40,5 +40,5 @@ This will process the CSV file and output the formatted questions to the console
 - The script will output the formatted questions to the console. You can redirect this output to a file if needed.
 
 ```powershell
-.\GIFTmaker.ps1 -csvFilePath "C:\path\to\epmitems.csv" > output.txt
+.\GIFTmaker.ps1 -csvFilePath "C:\path\to\items.csv" > output.txt
 ```
