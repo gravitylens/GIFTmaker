@@ -1,19 +1,19 @@
 # GIFTmaker
 
 ## Overview
-GIFTmaker is a PowerShell script that converts a CSV file containing multiple-choice questions into athe GIFT format used by several LMS systems.
+GIFTmaker is a PowerShell script that converts a CSV file containing multiple-choice questions into the GIFT format used by several LMS systems.
 
 ## Input File Format
 The input CSV file should have the following columns:
-- `ID`: The unique identifier for the question.
-- `Key`: The correct answer key (e.g., A, B, C, etc.).
-- `optA` to `optG`: The options for the multiple-choice question.
-- `Stem`: The question text.
+- `Name`: The unique identifier for the question.
+- `Answer`: The correct answer key (e.g., A, B, C, etc.).
+- `Option A` to `Option G`: The options for the multiple-choice question.
+- `Question`: The question text.
 - Other columns may be included, but will be ignored.
 
 ### Example CSV
 ```csv
-ID,Key,optA,optB,optC,optD,optE,optF,optG,Stem
+Name,Answer,Option A,Option B,Option C,Option D,Option E,Option F,Option G,Question
 1,A,Paris,London,Berlin,Madrid,,,,What is the capital of France?
 2,B,3,4,5,6,,,,What is 2 + 2?
 3,C,Red,Blue,Green,Yellow,,,,What color do you get when you mix blue and yellow?

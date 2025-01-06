@@ -4,13 +4,13 @@
 
 .DESCRIPTION
     This script reads a CSV file with multiple-choice questions and converts it into a specific format.
-    The CSV file should have the following columns: ID, Key, optA to optG, and Stem.
+    The CSV file should have the following columns: Name, Answer, Option A to Option G, and Question.
 
 .PARAMETER csvFilePath
     The path to the CSV file containing the questions.
 
 .EXAMPLE
-    .\GIFTmaker.ps1 -csvFilePath "C:\path\to\epmitems.csv"
+    .\GIFTmaker.ps1 -csvFilePath "C:\path\to\items.csv"
 
 .NOTES
     Ensure that the CSV file is properly formatted and all required columns are present.
@@ -41,16 +41,16 @@ function IsKey {
 }
 
 Import-CSV $csvFilePath | ForEach-Object{
-    $qid = $_.ID
-    $stem = $_.Stem
+    $qid = $_.Name
+    $stem = $_.Question
 
-    $optA = IsKey -column "A" -optionText $_.optA -key $_.Key
-    $optB = IsKey -column "B" -optionText $_.optB -key $_.Key
-    $optC = IsKey -column "C" -optionText $_.optC -key $_.Key
-    $optD = IsKey -column "D" -optionText $_.optD -key $_.Key
-    $optE = IsKey -column "E" -optionText $_.optE -key $_.Key
-    $optF = IsKey -column "F" -optionText $_.optF -key $_.Key
-    $optG = IsKey -column "G" -optionText $_.optG -key $_.Key
+    $optA = IsKey -column "A" -optionText $_.'Option A' -key $_.Answer
+    $optB = IsKey -column "B" -optionText $_.'Option B' -key $_.Answer
+    $optC = IsKey -column "C" -optionText $_.'Option C' -key $_.Answer
+    $optD = IsKey -column "D" -optionText $_.'Option D' -key $_.Answer
+    $optE = IsKey -column "E" -optionText $_.'Option E' -key $_.Answer
+    $optF = IsKey -column "F" -optionText $_.'Option F' -key $_.Answer
+    $optG = IsKey -column "G" -optionText $_.'Option G' -key $_.Answer
 
     write-output "// question: $qid"
     write-output "::::[choice_multiple]<p>$stem</p>{"
