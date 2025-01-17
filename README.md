@@ -4,7 +4,7 @@
 GIFTmaker is a PowerShell script that converts a CSV file containing multiple-choice questions into the GIFT format used by several LMS systems.
 
 ## Input File Format
-The input CSV file should have the following columns:
+The input CSV file is based on the CSV output format provided by Caveon Scorpion.  It should have the following columns:
 - `Name`: The unique identifier for the question.
 - `Answer`: The correct answer key (e.g., A, B, C, etc.).
 - `Option A` to `Option G`: The options for the multiple-choice question.
